@@ -1,0 +1,42 @@
+#include<iostream>
+using namespace std;
+int main(){
+    int a , b ;
+    cout << "Enter the value of A: " << endl;
+    cin >> a ;
+    cout << "Enter the value of B: " << endl;
+    cin >> b ;
+
+    char c;
+    cout << "Choose any operator[+ , - , * , / , %]" << endl;
+    cin >> c ;
+
+    switch (c)
+    {
+    case '+':
+        cout << "The addition is " << a + b << endl;
+        break;
+    
+    case '-':
+        cout << "The substraction is " << a - b << endl;
+        break;
+
+    case '*':
+        cout << "The multiplication is " << a * b << endl;
+        break;
+
+    case '/':
+        cout << "The division is " << a / b << endl;
+        break;
+
+    case '%':
+        cout << "The remainder is " << a / b << endl;
+        break;
+    
+    default:
+        break;
+    }
+
+
+
+}
